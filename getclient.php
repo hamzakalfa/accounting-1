@@ -3,7 +3,7 @@ $dbhost = getenv("MYSQL_SERVICE_HOST");
 $dbport = getenv("MYSQL_SERVICE_PORT");
 $dbuser = getenv("databaseuser");
 $dbpwd = getenv("databasepassword");
-$dbname = getenv("sampledb");
+$dbname = getenv("databasename");
 //Database operations
 //db_createaccount
 $connection = new mysqli($dbhost, $dbuser, $dbpwd, $dbname);
